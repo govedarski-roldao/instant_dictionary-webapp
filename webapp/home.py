@@ -4,10 +4,11 @@ import justpy as jp
 class Home:
     path = "/"
 
+
     def serve(self):
         wp = jp.QuasarPage()
         div = jp.Div(a=wp, classes="bg-gray-200 h-screen")
-        jp.Div(a=div, text="This is the Home Page", classes="text-axl m2")
+        jp.Div(a=div, text="This is the Home Page", classes="text-4xl m-2")
         jp.Div(a=div, text="""
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -20,5 +21,4 @@ class Home:
         return wp
 
 
-jp.Route(Home.path, Home.serve)
-jp.justpy(port=8001)
+
