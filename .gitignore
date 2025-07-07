@@ -1,0 +1,9 @@
+
+.idea/.gitignore
+.idea/App-8-Instant-Dictionary-Webapp.iml
+.idea/inspectionProfiles
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+venv/
+
